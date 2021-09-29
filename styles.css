@@ -1,0 +1,150 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: Arial,sans-serif;
+}
+
+nav {
+	background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.navbar{
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 5rem;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-left {
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2rem;
+    flex-shrink: 0; 
+}
+
+.nav-right{
+    align-items: center;
+    justify-content: flex-start;
+}
+ 
+#root {
+    background-color: rgb(236, 235, 235);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.body{
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block {
+    display: block;
+}
+
+h3{
+    color: rgba(82, 80, 80, 0.815);
+}
+
+.flex {
+    display: flex;
+}
+
+.box{
+    background-color: white;
+    display: block;
+    border-radius: 0.275rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    height: auto;
+    width: auto;
+    padding:1rem;
+}
+
+.box-desc{
+    color: rgba(136, 132, 132, 0.815);
+    font-weight: 300;
+}
+
+.box-footer{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.box-user{
+    
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    align-items: center;
+   
+}
+
+.user{
+    padding-left: 8px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 1.5rem;
+}
+
+img {
+    display:block;
+    height:3rem;
+    width: auto;
+    border-right: 3px solid rgba(197, 195, 195, 0.2);
+    padding-right: 3rem;
+}
+
+.search-area{
+    color: lightslategrey;
+    padding-left: 3rem;
+    justify-content: space-between;
+    width: auto;
+}
+
+.tag-red{
+    color:red;
+
+}
+
+.tag-green{
+    color:rgb(65, 224, 65);
+}
+
+.tag-purple {
+    color:rgb(161, 82, 218);
+
+}
+
+.tag-gray{
+    color:rgb(202, 198, 198);
+}
+
+.bg-blue{
+    background-color:rgb(81, 153, 212);
+}
+
+.bg-purple{
+    background-color:rgb(147, 45, 219);
+}
+
+.bg-pink{
+    background-color:rgb(219, 45, 190);
+}
+
+.bg-skyblue{
+    background-color:rgb(122, 204, 236);
+}
